@@ -1,0 +1,142 @@
+body{
+    background: rgb(16,31,255);
+    background: linear-gradient(90deg, rgba(16,31,255,0.3968181022408963) 31%, rgba(48,217,205,0.8113839285714286) 67%, rgba(0,255,254,0.041075805322128844) 100%);color: darkblue;
+
+}
+
+header{
+    position: absolute;
+    margin: 5vh;
+}
+
+main{
+    height: 85vh;
+    margin: 0 30px 0 100px
+}
+
+.entradaTexto, .salidaTexto{
+    display: inline-block;
+}
+
+.entradaTexto{
+    width: 60%;
+    margin-top: 22vh;
+    height: 60vh;
+}
+
+#entradaTexto2{
+    height: 48vh;
+    width: 100%;
+    resize: none;
+    border: none;
+    background-color: white;
+    color: darkblue;
+    font-size: 35px;
+    word-wrap: break-word;
+    border-radius: 5px;
+}
+
+#entradaTexto2:focus{
+    outline: none;
+}
+
+label{
+    font-size: 2vh;
+    display: block;
+    color: rgb(0, 0, 0);
+}
+
+label i{
+    font-size: 1.5vh;
+}
+
+.salidaTexto{
+    width: 30%;
+    height: 80vh;
+    margin-top: 2vh;
+    margin-left: 35px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    position: absolute;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#salidaTextoImagen{
+    text-align: center;
+}
+
+#salidaTextoImagen h2{
+    font-size: 35px;
+    margin: 10px;
+}
+
+#salidaTexto_texto{
+    height: 100%;
+    width: 100%;
+}
+
+
+input{
+    border: 1px solid green;
+    color: green;
+    width: 45%;
+    padding: 5px 0;
+    border-radius: 10px;
+}
+
+#encriptar:disabled, #desencriptar:disabled{
+    background-color: lightgray;
+    color: white;
+    scale: 1;
+}
+
+#encriptar{
+    background-color: rgb(42, 4, 93);
+    color: white;
+    font-size: 35px;
+}
+
+#desencriptar{
+    background-color: lightblue;
+    font-size: 35px;
+}
+
+#desencriptar:hover{
+    scale: 1.1;
+}
+
+#encriptar:hover{
+    scale: 1.1;
+}
+
+#desencriptar, #encriptar{
+    margin-top: 2vh;
+}
+
+.texto{
+    height: 70vh;
+    font-size: 35px;
+    margin: 3vh 3vh 0 3vh;  
+    text-align: initial;
+    word-wrap: break-word;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.boton{
+    vertical-align: bottom;
+    text-align: center;
+}
+
+#copiar{
+    background-color: white;
+    font-size: 35px;
+}
+
+footer{
+    max-height: 15vh;
+    text-align: center;
+    margin: 2vh 0;
+}

@@ -1,0 +1,39 @@
+@media screen and ( max-width: 430px){
+    
+    header{
+        margin: 2vh;
+        left: -40px;
+    }
+    
+    main{
+        margin: 0 2vh;
+    }
+
+    .main-salidaTexto{
+        margin-top: 3vh;
+    }
+
+    #entradaTexto{
+        font-size: 20px;
+    }
+
+    #main-salidaTexto_imagen{
+        padding: 3px;
+        font-size: 15px;
+    }
+
+    #main-salidaTexto_imagen h2{
+        font-size: 18px;
+    }
+
+    #encriptar, #desencriptar, #copiar{
+        width: 100%;
+        margin: 2px auto;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    footer{
+        margin-top: 4vh;
+    }
+}

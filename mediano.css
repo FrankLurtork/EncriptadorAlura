@@ -1,0 +1,63 @@
+@media screen and ( max-width: 820px){
+
+    header{
+        position: relative;
+        margin-left: 0;
+    }
+
+    #entradaTexto, .main-entradaTexto, .main-salidaTexto, #main-salidaTexto_imagen h2, .texto{
+        font-size: 30px;
+    }
+
+    main{
+        margin: 0 5vh;
+        height: auto;
+    }
+
+    .main-entradaTexto, .main-salidaTexto{
+        display: block;
+        width: 100%;
+        margin: 0; 
+    }
+
+    input{
+        font-size: 25px;
+    }
+
+    .main-entradaTexto input{
+        margin: 1.5vw;
+    }
+
+    .main-salidaTexto{
+        display: flex;
+        position: relative;
+        height: auto;
+    }
+
+    #main-salidaTexto_imagen img{
+        display: none;
+    }
+
+    #main-salidaTexto_imagen{
+        padding: 30px 0;
+        height: auto;
+        font-size: 25px;
+    }
+
+    #main-salidaTexto_texto{
+        height: auto;
+    }
+
+    .texto{
+        margin: 10px;
+        height: auto;
+    }
+
+    .boton{
+        position: relative;
+    }
+
+    footer{
+        margin-top: 5vh;
+    }
+}

@@ -1,2 +1,60 @@
 <!DOCTYPE html>
+<html lang="es">
+    <head>
+            
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta charset="UTF-8">
+
+
+
+            <link rel="stylesheet" href="reset.css">
+
+            <link rel="stylesheet" href="style.css">
+
+            <link rel="stylesheet" href="medianos.css">
+            <link rel="stylesheet" href="chico.css">
+
+            <title>Encriptador</title>
+        </head>
+        <body>
+            <header>
+                <img src="img/logoAlura.png" alt="">
+            </header>
+
+            <main>
+                <div class="main-entradaTexto">
+                    <div class="main-entradaTexto_texto">
+                        <textarea id="entradaTexto" cols="20" rows="10" placeholder="Escribe tu texto aqui" onkeyup="verificar(this.value)"></textarea>
+                        <label id="advertencia" for="entradaTexto"><i class="fa-solid fa-circle-exclamation"></i> Solo letras minúsculas sin acentos ni carácteres especiales</label>
+                    
+                        <input id="encriptar" type="button" value="Encriptar" onclick="mostrarTexto('encriptar')">
+                        <input id="desencriptar" type="button" value="Desencriptar" onclick="mostrarTexto('desencriptar')">
+                    </div>
+                </div>
+
+                <div class="main-salidaTexto">
+                    <div id="main-salidaTexto_imagen">
+                        <img src="img/persona.png" alt="Persona concentrada mirando en una lupa">
+                        <h2>Ningún mensaje fue encontrado</h2>
+                        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                    </div>
+                    
+                    <div id="main-salidaTexto_texto" hidden="false">
+                        <div class="texto">    
+                            <p id="main-salidaTexto_texto_parrafo"></p>
+                        </div>
+                        <div class="boton">
+                            <input id="copiar" type="button" value="Copiar" onclick="copiarTexto()">
+                        </div>
+                    </div>
+                </div>
+
+                <script src="app.js"></script>
+            </main>
+
+            <footer>
+                <p>Francisco Lopez 2024</p>
+            </footer>
+    </body>
 </html>
